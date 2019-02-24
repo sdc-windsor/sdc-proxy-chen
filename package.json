@@ -1,0 +1,27 @@
+{
+  "name": "videoplayer-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for Video Player service",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt11-spider-n-sleet/videoplayer-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpt11-spider-n-sleet/videoplayer-proxy/issues"
+  },
+  "homepage": "https://github.com/rpt11-spider-n-sleet/videoplayer-proxy#readme"
+}
