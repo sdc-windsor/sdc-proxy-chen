@@ -4,17 +4,14 @@
   "description": "Proxy for Video Player service",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
